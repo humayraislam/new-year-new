@@ -5,23 +5,85 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
-header{
+
+/* header*/
+
+.header-section {
   background-image: url(/images/banner/banner1.png);
-  width: 100%;
-  height: 100%;
+ 
+ }
+
+ /* 2nd part*/
+.contin{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-evenly;
+  margin: 30px 250px 30px 100px;
+
+}
+.contin img {
+  width: 320px;
+}
+
+/*third part*/
+
+.third-part-sec {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: 30px 0 70px 0;
+
+}
+
+.third-part-sec div{
+  padding: 0 50px;
+}
+.third-part-sec img{
+  width: 50px;
+}
+.third-part-h{
+   display: flex;
+  
+   justify-content: center;
   
 }
+
+
+/* fourth -part*/
+.fourth-part {
+  display: flex;
+  justify-content: center;
+  margin: 0 80px 60px 80px;
+ 
+}
+#button{
+  margin-top: 8px;
+}
+.fourth-part img{
+  width: 80%;
+  
+  
+}
+.gradiant{
+  position: absolute;
+  color: white;
+  padding: 65px 470px 10px 0px;
+}
+
+/*footer*/
+
 .container{
   display: flex;
  justify-content: space-around;
  padding: 60px 0;
  background-color: black;
  color: white;
-  
+
 }
 .common-p{
   font-size: x-small;
-  padding: 8px 0;
+  padding: 6px 0;
 }
 .container img{
    width: 20px;
@@ -35,10 +97,10 @@ header{
    background-color: black;
    border-radius: 5px;
 }
-.containersec button{
+.containersecb{
   background-color: whitesmoke ;
   color: rgb(252, 100, 45);
-  padding: 5px 10px;
+  padding: 8px 15px;
   font-size: x-small;
   border: none;
   border-radius: 5px;
