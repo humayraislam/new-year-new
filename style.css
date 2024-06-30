@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+  background-image: url(/images/banner/banner1.png);
+  width: 100%;
+  height: 100%;
+  
+}
+.container{
+  display: flex;
+ justify-content: space-around;
+ padding: 60px 0;
+ background-color: black;
+ color: white;
+  
+}
+.common-p{
+  font-size: x-small;
+  padding: 8px 0;
+}
+.container img{
+   width: 20px;
+}
+.containersec  input{
+   margin: 10px 0 5px 0;
+   padding: 8px;
+   font-size: x-small;
+   border: 1px solid white
+   ;
+   background-color: black;
+   border-radius: 5px;
+}
+.containersec button{
+  background-color: whitesmoke ;
+  color: rgb(252, 100, 45);
+  padding: 5px 10px;
+  font-size: x-small;
+  border: none;
+  border-radius: 5px;
+}
