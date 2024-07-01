@@ -6,6 +6,11 @@ body{
     font-family: "Work Sans", sans-serif;
 }
 
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* header*/
 
 .header-section {
@@ -25,6 +30,7 @@ body{
 .contin img {
   width: 320px;
 }
+
 
 /*third part*/
 
@@ -62,13 +68,14 @@ body{
 }
 .fourth-part img{
   width: 80%;
-  
-  
+ 
 }
 .gradiant{
   position: absolute;
   color: white;
   padding: 65px 470px 10px 0px;
+  
+  
 }
 
 /*footer*/
